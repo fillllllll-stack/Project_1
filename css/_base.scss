@@ -1,0 +1,86 @@
+@import '_reset.scss';
+@import '_fonts.scss';
+@import '_vars.scss';
+
+/*
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Default styles
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+*/
+
+body{
+ @extend %rel-reg;
+ color: #403F41;
+}
+
+main {
+  position: relative;
+}
+
+
+
+/*=======================================
+          Containers and blocks
+=======================================*/
+
+.def-container {
+
+}
+
+.def-in-container {
+  max-width: 1600px;
+  width: 100%;
+
+}
+
+
+
+
+.def-block{
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+
+.form-group {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  position: relative;
+}
+.header-container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.wrapper {
+  max-height: 410px;
+  background-color: #FFF8EA;
+  padding: 10px 0 30px;
+  margin-bottom: 60px;
+}
+
+.header-in-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.first-page-index {
+  max-width: unset;
+}
+
+/*=======================================
+                Buttons
+=======================================*/
+
+.def-btn{
+padding: 10px;
+}
+
+.def-btn-1{
+  padding: 10px;
+}

@@ -1,0 +1,70 @@
+/*
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Reset styles
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+*/
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 0;
+}
+a{
+  display: block;
+}
+a, a:before,a:hover, a:hover:before{
+  transition: 0.4s;
+  color: #211323;
+}
+a:hover{
+  text-decoration: none;
+  transition: 0.4s;
+}
+ol li , ul li {
+  font-size: 14px;
+  line-height: 24px;
+}
+span{
+  display: block;
+}
+
+p span{
+  display: inline;
+}
+
+button{
+  background-color: unset;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: .4s;
+  outline: none;
+}
+button:hover{
+  transition: .4s;
+  outline: none;
+  opacity: 0.9;
+}
+button:focus{
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+label{
+  font-weight: normal;
+}
+
+
+textarea, textarea:focus,
+input,
+input:focus{
+  outline: none;
+  transition: .4s;
+}
+.navbar{
+   padding: 0;
+   margin: 0;
+ }

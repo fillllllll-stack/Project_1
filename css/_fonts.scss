@@ -1,0 +1,125 @@
+/*
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+| Fonts
+|‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+*/
+
+@font-face {
+  font-family: 'Raleway-Light';
+  src: url('/./fonts/Releway-Light/Raleway-Light.eot');
+  src: url('../fonts/Releway-Light/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Releway-Light/Raleway-Light.svg#Raleway-Light') format('svg'),
+  url('../fonts/Releway-Light/Raleway-Light.ttf') format('truetype'),
+  url('../fonts/Releway-Light/Raleway-Light.woff') format('woff'),
+  url('../fonts/Releway-Light/Raleway-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Regular';
+  src: url('../fonts/Releway-Regular/Raleway-Regular.eot');
+  src: url('../fonts/Releway-Regular/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Releway-Regular/Raleway-Regular.svg#Raleway-Regular') format('svg'),
+  url('../fonts/Releway-Regular/Raleway-Regular.ttf') format('truetype'),
+  url('../fonts/Releway-Regular/Raleway-Regular.woff') format('woff'),
+  url('../fonts/Releway-Regular/Raleway-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Medium';
+  src: url('../fonts/Releway-Medium/Raleway-Medium.eot');
+  src: url('../fonts/Releway-Medium/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Releway-Medium/Raleway-Medium.svg#Raleway-Medium') format('svg'),
+  url('../fonts/Releway-Medium/Raleway-Medium.ttf') format('truetype'),
+  url('../fonts/Releway-Medium/Raleway-Medium.woff') format('woff'),
+  url('../fonts/Releway-Medium/Raleway-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-SemiBold';
+  src: url('../fonts/Releway-SemiBold/Raleway-SemiBold.eot');
+  src: url('../fonts/Releway-SemiBold/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Releway-SemiBold/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg'),
+  url('../fonts/Releway-SemiBold/Raleway-SemiBold.ttf') format('truetype'),
+  url('../fonts/Releway-SemiBold/Raleway-SemiBold.woff') format('woff'),
+  url('../fonts/Releway-SemiBold/Raleway-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url('../fonts/Releway-Bold/Raleway-Bold.eot');
+  src: url('../fonts/Releway-Bold/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Releway-Bold/Raleway-Bold.svg#Raleway-Bold') format('svg'),
+  url('../fonts/Releway-Bold/Raleway-Bold.ttf') format('truetype'),
+  url('../fonts/Releway-Bold/Raleway-Bold.woff') format('woff'),
+  url('../fonts/Releway-Bold/Raleway-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant-Bold';
+  src: url('../fonts/Cormorant-Bold/Cormorant-Bold.eot');
+  src: url('../fonts/Cormorant-Bold/Cormorant-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Cormorant-Bold/Cormorant-Bold.svg#Cormorant-Bold') format('svg'),
+  url('../fonts/Cormorant-Bold/Cormorant-Bold.ttf') format('truetype'),
+  url('../fonts/Cormorant-Bold/Cormorant-Bold.woff') format('woff'),
+  url('../fonts/Cormorant-Bold/Cormorant-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant-SemiBold';
+  src: url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.eot');
+  src: url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.svg#Cormorant-SemiBold') format('svg'),
+  url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.ttf') format('truetype'),
+  url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.woff') format('woff'),
+  url('../fonts/Cormorant-SemiBold/Cormorant-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+%rel-l {
+  font-weight: 300;
+  font-family: 'Raleway-Light', sans-serif;
+}
+
+%rel-reg {
+  font-weight: normal;
+  font-family: 'Raleway-Regular', sans-serif;
+}
+
+%rel-m {
+  font-weight: 500;
+  font-family: 'Raleway-Medium', sans-serif;
+}
+
+%rel-sb {
+  font-weight: 600;
+  font-family: 'Raleway-SemiBold', sans-serif;
+}
+
+%rel-b {
+  font-weight: 700;
+  font-family: 'Raleway-Bold', sans-serif;
+}
+
+%corm-b {
+  font-weight: 700;
+  font-family: 'Cormorant-Bold', sans-serif;
+}
+
+%corm-sb {
+  font-weight: 600;
+  font-family: 'Cormorant-SemiBold', sans-serif;
+}

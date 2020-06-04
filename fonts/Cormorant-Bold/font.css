@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Cormorant-Bold';
+  src: url('Cormorant-Bold.eot');
+  src: url('Cormorant-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Cormorant-Bold.svg#Cormorant-Bold') format('svg'),
+       url('Cormorant-Bold.ttf') format('truetype'),
+       url('Cormorant-Bold.woff') format('woff'),
+       url('Cormorant-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
